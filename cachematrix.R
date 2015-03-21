@@ -1,5 +1,5 @@
 ## Sometimes we wish to cache potentially time-consuming computations. Today we are going to do this
-## for the inverse of a matrix. 03/21/15
+## for the inverse of a matrix. 03/21/15 - final attempt
 
 ## makeCacheMatrix will make a special matrix object that cache its inverse
 
