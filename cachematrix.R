@@ -1,7 +1,7 @@
 ## Sometimes we wish to cache potentially time-consuming computations. Today we are going to do this
 ## for the inverse of a matrix. 03/21/15 - final attempt
 
-## makeCacheMatrix will make a special matrix object that cache its inverse
+## makeCacheMatrix will make a special matrix object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getinverse = getinverse)
 }
 
-## Here we pull the inverse if the matrix has not been changed, if it has, then we recalculate
+## Here we pull the inverse of the matrix it it has not been changed. If it has, then we recalculate
 ## the inverse
 
 
